@@ -1,0 +1,178 @@
+Great 👍
+I’ll start with a **complete 30 / 60 / 90-day DevOps plan** (beginner → job-ready). You can follow this directly.
+
+---
+
+# 🚀 30 / 60 / 90-Day DevOps Roadmap
+
+## ✅ DAYS 1–30: **Foundations (Must-Have Basics)**
+
+### 🔹 Linux
+
+* File system, permissions
+* Processes (`ps`, `top`, `kill`)
+* Networking (`netstat`, `ss`, `curl`, `wget`)
+* Package managers (`apt`, `yum`)
+
+👉 Practice:
+
+```bash
+ls, cd, chmod, chown, grep, awk, sed
+```
+
+---
+
+### 🔹 Git & GitHub
+
+* git clone, add, commit, push
+* branches & merge
+* pull requests
+
+👉 Practice:
+
+```bash
+git checkout -b feature
+git merge
+```
+
+---
+
+### 🔹 Networking Basics
+
+* HTTP / HTTPS
+* DNS
+* Ports & firewalls
+* Load balancers
+
+---
+
+### 🔹 Scripting
+
+* Bash scripting
+* Intro Python (automation)
+
+👉 Mini task:
+
+* Script to monitor disk usage
+* Script to restart service if down
+
+---
+
+## ✅ DAYS 31–60: **Core DevOps Skills**
+
+### 🔹 CI/CD
+
+Learn **ONE tool deeply** (Jenkins or GitHub Actions)
+
+Pipeline stages:
+
+```
+Code → Build → Test → Docker → Deploy
+```
+
+---
+
+### 🔹 Docker
+
+* Dockerfile
+* Images & containers
+* Docker Compose
+
+👉 Practice:
+
+```dockerfile
+FROM node:18
+COPY . .
+RUN npm install
+CMD ["npm","start"]
+```
+
+---
+
+### 🔹 Cloud (AWS Recommended)
+
+* EC2
+* IAM
+* S3
+* VPC basics
+* Load Balancer
+
+👉 Task:
+
+* Launch EC2
+* Deploy Docker app manually
+
+---
+
+### 🔹 Terraform (IaC)
+
+* Providers
+* Resources
+* State file
+
+👉 Task:
+
+* Create EC2 using Terraform
+
+---
+
+## ✅ DAYS 61–90: **Advanced + Production Level**
+
+### 🔹 Kubernetes
+
+* Pods
+* Deployments
+* Services
+* ConfigMaps & Secrets
+* Rolling updates
+
+👉 Commands:
+
+```bash
+kubectl get pods
+kubectl apply -f deployment.yaml
+```
+
+---
+
+### 🔹 Monitoring & Logging
+
+* Prometheus
+* Grafana
+* ELK Stack
+
+👉 Task:
+
+* Monitor CPU, memory
+* Set alerts
+
+---
+
+### 🔹 Deployment Strategies
+
+* Blue-Green
+* Canary
+* Rolling updates
+
+---
+
+## 🧪 FINAL REAL-WORLD PROJECT (VERY IMPORTANT)
+
+**End-to-End DevOps Project**
+
+✅ GitHub repo
+✅ CI pipeline (Jenkins/GitHub Actions)
+✅ Dockerized app
+✅ Kubernetes deployment
+✅ AWS infra via Terraform
+✅ Monitoring with Prometheus & Grafana
+
+This = **resume + interview proof**
+
+---
+
+## 🎯 After 90 Days, You Can Apply For:
+
+* Junior DevOps Engineer
+* Cloud Engineer
+
